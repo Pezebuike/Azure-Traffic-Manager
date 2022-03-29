@@ -36,7 +36,9 @@ The following table summarizes the Azure load balancing services by these catego
 
 -> To change directory to root and run commands as super user
 
+'''
 Sudo SU
+'''
 
 -> To Install Apache Server
   
