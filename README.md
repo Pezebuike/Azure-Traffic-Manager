@@ -88,7 +88,7 @@ echo "your message" > /var/www/html/index.html
 
 -> Go to Azure portal
 
--> Serach for Traffic Manager Proofiles
+-> Serach for Traffic Manager Profiles
 
 -> Hit on create 
 
