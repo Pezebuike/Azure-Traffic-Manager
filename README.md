@@ -80,7 +80,7 @@ echo "your message" > /var/www/html/index.html
 
 -> Select HTTP and select Allow, give some name and Add it
 
--> Once Port 80 is added you should be able to view your echo message from your browser.
+-> Once Port 80 is added you should be able to view your echo message from your browser using public IP of VM's.
 
 6)Go to the Overview tab of both VM's and click on DNS configure. Give some sample DNS name to your VM's and save it.
 
@@ -88,13 +88,13 @@ echo "your message" > /var/www/html/index.html
 
 -> Go to Azure portal
 
--> Serach for Traffic Manager Profiles
+-> Search for Traffic Manager Profiles
 
 -> Hit on create 
 
--> Provide name, Routing method you want, Subscription and Resource Group and click on **ADD**
+-> Provide name, Routing method you want ( I have selected **Priority**), Subscription and Resource Group and click on **ADD**
 
--> Go to endpoints in Traffic Manager and add your endpoints
+-> Go to endpoints in Traffic Manager and add your servers
 
 -> Once the endpoints are online you can see the echo message by using traffic manager Url
 
