@@ -1,3 +1,8 @@
+# Yasmin Shaik -Cognizant, Australia
+## Azure Evangelist, Cloudnloud Tech community
+
+
+
 # Azure-Traffic-Manager
 
 To understand the use of Azure Traffic Manager one should know the the advantage of having load balancer.
@@ -36,33 +41,45 @@ The following table summarizes the Azure load balancing services by these catego
 
 -> To change directory to root and run commands as super user
 
-'''
+```
 Sudo SU
-'''
+```
 
 -> To Install Apache Server
   
+  ```
 Yum install httpd -y
+```
 
 -> To enable Apache Service
 
+```
 systemctl enable httpd
+```
 
 ->To start Apache Service
 
+```
 systemctl start httpd
+```
 
 ->To Check status of installed service
 
+```
 systemctl status httpd
+```
 
 -> To disbale/stop Firewall
 
+```
 systemctl disbale firewalld;systemctl stop firewalld
+```
 
 -> To echo message onto server
 
+```
 echo "your message" > /var/www/html/index.html
+```
 
 **Note:** you can set your domain document root directory to any location you want. The most common locations for webroot include:
 
