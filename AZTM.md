@@ -39,12 +39,12 @@ Your end-to-end scenarios may benefit from combining these solutions as needed.
 ## Advantages of Azure Traffic Manager
 
 1) Increase application availability
-2) 
-3) Improve application performance
-4) 
-5) Service maintenance without downtime
-6) 
-7) Combine hybrid applications
+
+2) Improve application performance
+ 
+3) Service maintenance without downtime
+ 
+4) Combine hybrid applications
 
 # Decision tree for load balancing in Azure
 
