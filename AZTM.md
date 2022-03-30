@@ -1,4 +1,4 @@
-# Azure-Traffic-Manager
+# Azure-Traffic-Manager Profiles
 
 To understand the use of Azure Traffic Manager one should know the the advantage of having load balancer.
 
