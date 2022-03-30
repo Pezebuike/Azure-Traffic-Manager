@@ -18,12 +18,6 @@ The following table summarizes the Azure load balancing services by these catego
 
 **Azure Load Balancer**- It manages load within	Region and recommended traffic is non-HTTP(S)
 
-# Azure Traffic Manager Profiles
-
-Azure Traffic Manager is a DNS-based traffic load balancer. This service allows you to distribute traffic to your public facing applications across the global Azure regions. Traffic Manager also provides your public endpoints with high availability and quick responsiveness.
-
-Traffic Manager uses DNS to direct the client requests to the appropriate service endpoint based on a traffic-routing method. Traffic manager also provides health monitoring for every endpoint. The endpoint can be any Internet-facing service hosted inside or outside of Azure. 
-
 **Note**
 
 Azure provides a suite of fully managed load-balancing solutions for your scenarios.
@@ -35,6 +29,12 @@ If you need to optimize global routing of your web traffic and optimize top-tier
 To do network layer load balancing, review Load Balancer.
 
 Your end-to-end scenarios may benefit from combining these solutions as needed. 
+
+# Azure Traffic Manager Profiles
+
+Azure Traffic Manager is a DNS-based traffic load balancer. This service allows you to distribute traffic to your public facing applications across the global Azure regions. Traffic Manager also provides your public endpoints with high availability and quick responsiveness.
+
+Traffic Manager uses DNS to direct the client requests to the appropriate service endpoint based on a traffic-routing method. Traffic manager also provides health monitoring for every endpoint. The endpoint can be any Internet-facing service hosted inside or outside of Azure. 
 
 ## Advantages of Azure Traffic Manager
 
