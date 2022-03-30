@@ -1,4 +1,4 @@
-# Azure-Traffic-Manager Profiles
+# Azure Load Balancing
 
 To understand the use of Azure Traffic Manager one should know the the advantage of having load balancer.
 
@@ -18,11 +18,40 @@ The following table summarizes the Azure load balancing services by these catego
 
 **Azure Load Balancer**- It manages load within	Region and recommended traffic is non-HTTP(S)
 
+# Azure Traffic Manager Profiles
+
+Azure Traffic Manager is a DNS-based traffic load balancer. This service allows you to distribute traffic to your public facing applications across the global Azure regions. Traffic Manager also provides your public endpoints with high availability and quick responsiveness.
+
+Traffic Manager uses DNS to direct the client requests to the appropriate service endpoint based on a traffic-routing method. Traffic manager also provides health monitoring for every endpoint. The endpoint can be any Internet-facing service hosted inside or outside of Azure. 
+
+**Note**
+
+Azure provides a suite of fully managed load-balancing solutions for your scenarios.
+
+If you want to load balance between your servers in a region at the application layer, review Application Gateway.
+
+If you need to optimize global routing of your web traffic and optimize top-tier end-user performance and reliability through quick global failover, see Front Door.
+
+To do network layer load balancing, review Load Balancer.
+
+Your end-to-end scenarios may benefit from combining these solutions as needed. 
+
+## Advantages of Azure Traffic Manager
+
+1) Increase application availability
+2) 
+3) Improve application performance
+4) 
+5) Service maintenance without downtime
+6) 
+7) Combine hybrid applications
+
 # Decision tree for load balancing in Azure
 
 ![image](https://user-images.githubusercontent.com/72698112/160631701-d940c044-9129-4762-a7d5-9cb825bf6d7c.png)
 
 # Quick Exercise on Azure Traffic Manager
+**Note:** I am using Web applications to show sample Demo on how traffic manager works
 
 1)Create Azure Linux VM (I have used Rocky Linux 8.5) , say Server1
 
