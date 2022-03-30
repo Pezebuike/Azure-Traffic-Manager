@@ -30,6 +30,10 @@ To do network layer load balancing, review Load Balancer.
 
 Your end-to-end scenarios may benefit from combining these solutions as needed. 
 
+# Decision tree for load balancing in Azure
+
+![image](https://user-images.githubusercontent.com/72698112/160631701-d940c044-9129-4762-a7d5-9cb825bf6d7c.png)
+
 # Azure Traffic Manager Profiles
 
 Azure Traffic Manager is a DNS-based traffic load balancer. This service allows you to distribute traffic to your public facing applications across the global Azure regions. Traffic Manager also provides your public endpoints with high availability and quick responsiveness.
@@ -45,10 +49,6 @@ Traffic Manager uses DNS to direct the client requests to the appropriate servic
 3) Service maintenance without downtime
  
 4) Combine hybrid applications
-
-# Decision tree for load balancing in Azure
-
-![image](https://user-images.githubusercontent.com/72698112/160631701-d940c044-9129-4762-a7d5-9cb825bf6d7c.png)
 
 # Quick Exercise on Azure Traffic Manager
 **Note:** I am using Web applications to show sample Demo on how traffic manager works
